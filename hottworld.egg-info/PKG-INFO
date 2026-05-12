@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: hottworld
+Version: 0.1.0
+Summary: HoTT-CatWorld: Structure-Aware World Models for Verifiable Reasoning in Homotopy Type Theory and Higher Category Theory
+Author: HoTTWorld Team
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.0
+Requires-Dist: numpy>=1.24
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: networkx>=3.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0; extra == "dev"
+Requires-Dist: rich>=13.0; extra == "dev"

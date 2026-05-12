@@ -1,0 +1,35 @@
+# HoTT-CatWorld default configuration
+environment:
+  type: simulated
+  max_depth: 100
+  seed: 42
+
+model:
+  world_model:
+    hidden_dim: 128
+    num_layers: 3
+    dropout: 0.1
+  value_func:
+    hidden_dim: 64
+    num_layers: 2
+
+search:
+  type: mcts
+  num_simulations: 50
+  max_depth: 20
+  exploration_constant: 1.414
+  beam_width: 8
+  temperature: 1.0
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  num_epochs: 100
+  weight_decay: 0.0001
+  grad_clip: 1.0
+
+data:
+  state_dim: 64
+  action_dim: 16
+  max_goals: 10
+  synthetic_samples: 1000
