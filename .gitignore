@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
+*.cover
+
+# Checkpoints / outputs
+checkpoints/
+trajectories.jsonl
+e2e_output/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Misc
+*.log
+*.tmp
